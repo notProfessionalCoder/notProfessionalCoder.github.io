@@ -68,7 +68,7 @@
       </div>
     </div>
 
-       <a href="top">Back To Top</a>
+       
     
         
     <!-- Optional JavaScript -->
