@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Fascinate+Inline|Indie+Flower" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animate.css">
+    <title>Check Out</title>
+  </head>
+  <body>
+    <nav id="top" class="navbar navbar-light bg-secondary">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="homepage.html"><i class="fab fa-hire-a-helper"></i>  MagicWorld
+                </a>
+            </div>
+            <ul class="nav mr-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="fas fa-align-justify" width="40" height="40"></i>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="about.html">About Page</a>
+                            <a class="dropdown-item" href="catalog.html">Catalog Page</a>
+                            <a class="dropdown-item" href="cart.html">Cart Page</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="checkout.html">Check Out Right Here</a>
+                          </div>
+                </li>
+            </ul>
+    </nav>    
+    
+    <div class="container">
+        <div class="py-5 text-center">
+            <h1 class="header">Check Out</h1>
+        </div>
+            <div class="row">
+                <div class="col-md-4 order-md-2 mb-4">
+                    <h4 class="d-flex justify-content-between align-items-center mb-3">
+                        <span class="text-muted">Cart</span>
+                        <span class="badge badge-secondary badge-pill">103</span>
+                    </h4>
+                    <ul class="list-group mb-3">
+                        <li class="list-group-item d-flex justify-content-between">
+                            <div>
+                                <h6 class="my-0">Flying broomstick(1)</h6>
+                                <small class="text-muted">Nimbus 2001</small>
+                            </div>
+                            <span class="text-muted">2000 G</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between">
+                            <div>
+                                <h6 class="my-0">Floo Powder(100)</h6>
+                                <small class="text-muted">Every Wizard Earn One</small>
+                            </div>
+                            <span class="text-muted">200 S</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between">
+                                <div>
+                                    <h6 class="my-0">Magic wand(1)</h6>
+                                    <small class="text-muted">Powerfull weapond</small>
+                                </div>
+                                <span class="text-muted">700 G</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between">
+                            <span>Total：</span>
+                            <strong>2711 G 13 S </strong>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-8 order-md-1">
+                    <h4 class="mb-3">Billing Address</h4>
+                    <form class="needs-validation" novalidate>
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label for="firstName">FirstName</label>
+                                <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+                                <div class="invalid-feedback">
+                                    FirstName Cannot Be Empty
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="lastName">LastName</label>
+                                <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+                                <div class="invalid-feedback">
+                                    LastName Cannot Be Empty
+                                </div>
+                            </div>
+                        </div>
+                        <br/>
+                        <div class="mb-3">
+                            <label for="address">Address</label>
+                            <input type="text" class="form-control" id="address" placeholder="" required>
+                            <div class="invalid-feedback">
+                                Please Enter Your Address
+                            </div>
+                        </div>
+                        <br/>
+                        <div class="mb-3">
+                            <label for="address2">Address 2 <span class="text-muted">(option)</span></label>
+                            <input type="text" class="form-control" id="address2" placeholder="">
+                        </div>
+        
+                        <div class="row">
+                            <div class="col-md-5 mb-3">
+                                <label for="city">City</label>
+                                <select class="custom-select d-block w-100" id="city" required>
+                                    <option value="">Select</option>
+                                    <option>Brooklyn</option>
+                                    <option>Staten Island</option>
+                                    <option>Manhattan</option>
+                                    <option>Other</option>
+                                </select>
+                                <div class="invalid-feedback">
+                                    Choose The City
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-3">
+                                <label for="state">State</label>
+                                <select class="custom-select d-block w-100" id="state" required>
+                                    <option value="">Select</option>
+                                    <option>NY</option>
+                                    <option>Other</option>
+                                </select>
+                                <div class="invalid-feedback">
+                                    Choose The State
+                                </div>
+                            </div>
+                            <div class="col-md-3 mb-3">
+                                <label for="zip">Zip</label>
+                                <input type="text" class="form-control" id="zip" placeholder="" required>
+                                <div class="invalid-feedback">
+                                    Zipcode Cannot Be Empty
+                                </div>
+                            </div>
+                        </div>
+                        <hr class="mb-4">
+                        <h4 class="mb-3">Patment</h4>
+                        <div class="d-block my-3">
+                            <div class="custom-control custom-radio">
+                                <input id="credit" name="paymentMethod" type="radio" class="custom-control-input" checked required>
+                                <label class="custom-control-label" for="credit">Credit Card</label>
+                            </div>
+                            <div class="custom-control custom-radio">
+                                <input id="debit" name="paymentMethod" type="radio" class="custom-control-input" required>
+                                <label class="custom-control-label" for="debit">Debit Card</label>
+                            </div>
+                            <div class="custom-control custom-radio">
+                                <input id="paypal" name="paymentMethod" type="radio" class="custom-control-input" required>
+                                <label class="custom-control-label" for="paypal">Paypal</label>
+                            </div>
+                        </div>
+                        <hr class="mb-4">
+                        <button class="btn btn-primary btn-lg btn-block" type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
